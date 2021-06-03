@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>아침고요수목원</title>
+   
+   
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/menustyle.css">
+    <link rel="stylesheet" href="./css/final_slide.css">
+   
+</head>
+
+  <body>
+    <div class="header">
+      <div class="title">
+          <h1>2021 봄 축제</h1>
+    
+      <nav id='menu'>
+          <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+          <ul>
+            <li><a href='./index.html'>Home</a></li>
+            <li><a class='dropdown-arrow' href="m_spring.html"> 봄 </a>
+              <ul class='sub-menus'>
+                <li><a href="s1.html">아침고요수목원</a></li>
+                <li><a href="s2.html">마노르블랑 수국축제</a></li>
+                <li><a href="s3.html">세계튤립꽃박람회</a></li>
+                <li><a href="s4.html">에버랜드 튤립가든</a></li>
+                <li><a href="s5.html">제주 유채꽃축제</a></li>
+              </ul>
+            </li>
+
+            <li><a class='dropdown-arrow' href="m_summer.html"> 여름 </a>
+              <ul class='sub-menus'>
+                <li><a href="su1.html">모래작품 전시회</a></li>
+                <li><a href="su2.html">보령머드축제</a></li>
+                <li><a href="su3.html">창덕궁 달빛기행</a></li>
+              </ul>
+            </li>
+
+            <li><a class='dropdown-arrow' href="m_fall.html"> 가을 </a>
+              <ul class='sub-menus'>
+                <li><a href="f1.html">부천국제만화축제</a></li>
+                <li><a href="f2.html">서울빛초롱축제</a></li>
+                <li><a href="f3.html">한성백제문화제</a></li>
+              </ul>
+            </li>
+          
+            <li><a class='dropdown-arrow' href="m_winter.html"> 겨울 </a>
+              <ul class='sub-menus'>
+                <li><a href="w1.html">이월드 별빛축제</a></li>
+                <li><a href="w2.html">오색별빛정원전</a></li>
+                <li><a href="w3.html">마노르블랑 동백축제</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        </div>
+      </div>
+
+    <div class="jb-container">
+      
+      <div class="jb-content">
+        <h2>아침고요수목원</h2>
+        <h3>경기 가평군</h3>
+        <br>
+        수목원 입구에 들어서자마자 투명한 빛의 크로커스와 백목련의 꽃,<br>
+        노오란 산수유가 풍성하게 피어 상춘객을 맞이한다.<br>
+        100년 이상된 분재작들이 전시되어 있는 분재정원에도 봄이 찾아왔다.<br>
+        분홍빛 꽃 잔디가 하나둘씩 얼굴을 내미는 억새월을 지나면<br> 
+        진노랑의 귀여운 수선화가 가득 피어나 새봄의 생명력을 불어 넣고,<br>
+        꽃샘추위로 닫혀있던 매화꽃의 꽃망울은 그윽한 향기를 뿜는다.<br>
+        수목원을 거닐다 보면 봄꽃의 여왕이라 불리는 튤립 6만본이<br>
+        하늘길, 하늘정원, 달빛정원을 빼곡히 수놓아 봄의 기분을 고조시킨다. <br>
+        튤립과 교회가 어우러진 달빛정원은 새봄의 청명함을 담고 있어<Br>
+        아름다운 4월의 풍경을 만나볼 수 있다.<br>
+        수목원의 대표정원인 하경정원은 각 개체들의 어울림과 절제가<br>
+        자연스럽게 표현된 정원으로 풍광이 뛰어나며<br>
+        200여 종의 꽃과 100여 종의 목본성 식물을 만날 수 있다.<br>
+      </div>
+    
+      <div class="section">
+        <input type="radio" name="slide" id="slide01" checked>
+        <input type="radio" name="slide" id="slide02">
+        <input type="radio" name="slide" id="slide03">
+        <div class="slidewrap">
+          
+          <ul class="slidelist">
+            <!-- 슬라이드 영역 -->
+            <li class="slideitem">
+              <a><img src="./img/s/아침고요수목원.jpg" alt="경기 가평군 아침고요수목원">
+              </a>
+            </li>
+            <li class="slideitem">
+              <a><img src="./img/s/s_hy_2.JPG" alt="경기 가평군 아침고요수목원">
+            </a>
+            </li>
+            <li class="slideitem">
+              <a><img src="./img/s/s_t_3.jpg" alt="경기 가평군 아침고요수목원">
+            </a>
+            </li class="slideitem">
+      
+            <!-- 좌,우 슬라이드 버튼 -->
+            <div class="slide-control">
+              <div>
+                <label for="slide03" class="left"></label>
+                <label for="slide02" class="right"></label>
+              </div>
+              <div>
+                <label for="slide01" class="left"></label>
+                <label for="slide03" class="right"></label>
+              </div>
+              <div>
+                <label for="slide02" class="left"></label>
+                <label for="slide01" class="right"></label>
+              </div>
+            </div>
+      
+          </ul>
+          <!-- 페이징 -->
+          <ul class="slide-pagelist">
+            <li><label for="slide01"></label></li>
+            <li><label for="slide02"></label></li>
+            <li><label for="slide03"></label></li>
+          </ul>
+        </div>
+      </div>
+       
+       
+
+        <div class="jb-footer">
+        
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!
+              1m12!1m3!1d3154.965917538685!2d127.35254669999999!3d37.74394379999999!
+              2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3563326fdab04a4f%3
+              A0xcd50a814e92ab16d!2z7JWE7Lmo6rOg7JqU7IiY66qp7JuQ!5e0!3m2!1sko!2skr!4
+              v1622670681617!5m2!1sko!2skr"
+               width="430" height="300" style="border-radius: 24px;" allowfullscreen="" loading="lazy"></iframe>
+              
+            </div>
+
+              <div class="jb-sidebar">
+                <div class="details">
+                    <ul>
+                        <li>행사 기간&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  2021.4.10 ~ 2021.5.19</li>
+                        <li>전화번호 &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  1544-6703 </li>
+                        <li>홈페이지 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://www.morningcalm.co.kr" target="_blank">	
+                            http://www.morningcalm.co.kr  </a></li>
+                        <li>주소 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;경기도 가평군 상면 수목원로 432</li>
+                        <li>주최 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(주)아침고요수목원</li>
+                        <li>이용요금 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 홈페이지 안내 참고</li>
+                    </ul>
+                </div>
+            </div>
+
+      
+         
+    </body>
+</html>

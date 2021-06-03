@@ -1,0 +1,45 @@
+/*상단 좌측*/
+.jb-container {
+  width: 1100px;
+  margin: 10px auto;
+  margin-top: 35px;
+  padding: 20px;
+
+ 
+}
+
+/*스토리 내용*/
+.jb-content {
+  width: 550px;
+  padding: 20px;
+  margin-bottom: 20px;
+  float: left;
+ 
+}
+
+
+.jb-sidebar {
+  width: 480px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 100px;
+  float: right;
+
+}
+
+
+.jb-footer {
+  clear: both;
+  padding: 20px;
+  display: flex;
+  margin: 40px auto 10px auto;
+ 
+}
+
+.container{
+  margin-bottom: 5px;
+  margin-left: 20px;
+  float: right;
+
+}
